@@ -1,0 +1,10 @@
+.txt_body {
+    display: flex;
+
+    gap: 66px;
+}
+
+.translation {
+    display: flex;
+    width: 500px;
+}
