@@ -1,3 +1,8 @@
+const abbreviation = {
+  "business,": "biz",
+  "educational": "ed·t·nal",
+}
+
 const txt_body = document.getElementById('txt_body');
 const p_block = document.getElementById('p_block');
 const p_txt = document.getElementById('p_txt');
@@ -26,7 +31,7 @@ function transformBoustrophedon(txt) {
         const punctuaction = words[i].slice(0, j)
         // place at the beginning
         words[i] = `.${punctuaction}`
-        console.log(words)
+        // console.log(words)
       }
     }
 
@@ -40,7 +45,7 @@ function transformBoustrophedon(txt) {
 }
 
 
-const str = `
+const text = `
 During the past two decades, I have written about and worked with business, government, and educational institutions facing a widening skills-jobs disconnect. The jobs revolution is not going away. It now looms ominously over all Americans and the global economy.
 
 Here are some snapshots from workers and businesses.
@@ -122,12 +127,23 @@ As a result of all these converging issues, we have found ourselves in a profoun
 This author’s ultimate objective is to help everyone reconsider the choices we will need to make in the journey through the employment crossroads. The time for action is today, before other skilled foreign competitors take away our future.
 `
 
+const str = formatting(text)
+
 // cut the str at the 93th character before a whitespace
 // const result = str.match(/.{1,93}/gs) ?? [];
 const result = str.match(/.{1,93}\s/g) ?? [];
 
 
 
+function formatting(text) {
+  const words = text.split(" ")
+
+  for (let word of  words) {
+    if(abbreviation.hasOwnProperty(word)) words[words.indexOf(word)] = abbreviation[word]
+  }
+
+  return words.join(" ")
+}
 
 
 function b(arr) {
