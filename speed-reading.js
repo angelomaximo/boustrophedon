@@ -180,17 +180,17 @@ const abbreviation = {
   'department': 'dep·mt',
   'detention': 'det·',
   'digital': 'digi·',
-  'direction': 'dir·',
+  'direction': 'dir',
   'director': 'direc·',
   'distribution': 'dist·',
   'distributing': 'dist·ng',
   'distributor': 'dist·tor', 'distributors': 'dist·tors',
   'division': 'div·', 'divisions': 'div·s',
   'document': 'doc·', 'documents': 'doc·s',
-  'doctor': 'D·r', 'doctors': 'd·rs',
-  'development': 'dev·mt', 'developmets': 'dev·mts',
-  'developer': 'dev·r', 'developers': 'dev·rs',
-  'delete': 'del·',
+  'doctor': 'Dr', 'doctors': 'drs',
+  'development': 'devmt', 'developmets': 'devmts',
+  'developer': 'devr', 'developers': 'devrs',
+  'delete': 'del',
   // E- \\
   'enough': 'engh',
   'extreme': 'xtrm', 'extremes': 'xtrms',
@@ -478,3 +478,7 @@ const abbreviation = {
   'wisdom': 'wsdm',
   'wait': 'w8',
 }
+
+const test = "Test successful!"
+
+export { test }
