@@ -157,6 +157,67 @@ SUFFIXES
 */
 
 
+
+const text = `
+
+Of course that’s also what a lot of gamification platforms specialize in: adding PBLs into various products in a scalable manner. And as a result, many people who are less informed but curious about gamification start to believe that the sum total of gamification methodology and philosophy is merely the process of adding points, badges, and leaderboards to products. Justifiably, this leads them to believe that gamification is a shallow fad and not very impactful.
+
+This has also generated a backlash from the game development community, as they claim that gamification is a bastardization of the true essence intrinsic to good gaming. And who can blame them? Foursquare seems to be nothing more than points, badges, and leaderboards based on going to places, while Nike+ seems to be the same thing based on running. Is this as deep as gamification goes?
+
+Of course, points, badges, and leaderboards do have a place in game design. That’s why you see them in so many different games. They have the ability to motivate behavior and push people towards certain actions. But gamification is so much more than PBLs. Many gamification professionals are only familiar with how to implement PBL mechanics and even though these do create value, most of them completely miss the point of engaging the user. It is not unusual for users to feel insulted by shallow shell mechanics.
+
+If you ask any gamer what makes a game fun, they will not tell you that it is because of the PBLs. They play it because there are elements of strategy and great ways to spend time with friends, or they want to challenge themselves to overcome difficult obstacles. The points and badges are often an added bonus that’s nice to have depending on the context. This is the difference between extrinsic motivation, where you are engaged because of a goal or reward, and intrinsic motivation, where the activity itself is fun and exciting, with or without a reward. We’ll dive deeper into these distinctions in Chapter 13 on Left Brain vs Right Brain Motivations.
+
+<h3>A Trojan Horse without Greek Soldiers</h3>
+
+Generic game mechanics and poorly constructed game elements such as levels, boss fights, or quests often fall into the same hole as PBLs. Simply put, applying traditional “game elements” ubiquitous in popular gameplay without diving deeper into user motivation contributes to shallow user experience: it’s all flash and no bang. An almost humorous example of this is when people I meet call something a “quest” instead of a “task” thinking that this automatically makes the same original actions fun and engaging. Sure, having a playful attitude can make a big difference, but it only goes so far, especially when your customers and employees may already distrust your motives.
+
+<b>The truth is, simply incorporating game mechanics and game elements does not make a game fun.</b>
+
+Games aren’t necessarily fun because of high quality graphics or flashy animations either. There are many unpopular, poor-selling games with state-of-the-art 3D high- resolution graphics. There are also games with very basic graphics such as Minecraft, or even no graphics, such as the purely text-based multi-user dungeon games (MUDs), that have large communities of players addicted to them. Clearly, there are more to games than “meets the eye.”
+
+Unfortunately, a lot of people who work in gamification incorrectly think that applying game mechanics like points, badges, and leaderboards – elements that you can also find in boring and unsuccessful games - will automatically make the product or experience fun and engaging. Unfortunately, it’s not just what game elements you put in - it’s how, when, and most importantly, why these game elements appear.
+
+It would be foolish for a modern army commander to say, “Hey! The Greeks sent a big wooden horse to the Trojans and won the war. Lets send our enemies a big wooden horse too!” In this case, he clearly doesn’t understand the true design behind the Trojan Horse, but he only copied the outer shell of it. Instead, it would be much more effective if he created a virus that pretended to be a normal file to corrupt enemy computers. Learn from the design; don’t copy the shell.
+
+<h3>The Threat and Opportunities in Gamification</h3>
+
+Even though gamification has become accepted in the mainstream, poorly designed applications threaten its long-term viability and impact development. I am genuinely afraid that in a few years, companies will look at gamification and say, “Hey, we tried the points stuff and it didn’t work out. I guess gamification was just a short-term fad.”
+
+<i>That would be a huge loss for the world.</i>
+
+Based on my years of research, observation, and design in gamification, I am a hundred percent certain that good gamification design can unlock tremendous potential and improve many lives in the process. There are hundreds of case studies that illustrate this also. And so it is my job (and hopefully yours one day) to continue protecting and innovating the core essence and the promise of gamification.
+
+In the long run, the term “gamification” might actually fade and eventually disappear. Currently, no one describes a website’s design as being “so Web 2.0!” Gamification may just become the normal way we design, implement, and interact with the world around us. It’s my hope that the principles that optimize for human motivation becomes the standard for good design across the board.
+
+Fortunately, there are enough good gamification examples that continue to show how thoughtful design can improve core business metrics and inspire new ways of thinking and execution. Besides the 90+ Gamification Case Studies listed on my site, as mentioned in the last chapter, it is interesting to note that some of the best historical examples of gamification, such as eBay or Woot.com, have not been categorized as gamification by most people in the industry. There are dozens, if not hundreds of companies that became extremely successful because, regardless of what it was called, they applied great game mechanics and gameplay dynamics to their processes. Some of these examples are illustrated in the following chapters.
+
+Because of these success stories, I believe that gamification will continue to evolve and meet real needs if practitioners and the general gamification community also evolve in their understanding of its principles and practice.
+
+So if “game mechanics” alone are not the true reason why games are so engaging and sometimes addictive, then what is?
+
+<h3>The Story of the Good Designer vs. Bad Designer</h3>
+To understand the core of good gamification design, let’s start with an example of how a bad game designer might design a game.
+
+In designing a game, a bad designer might start off thinking, “Okay, what popular game mechanics and game elements should I use? Well, of course we need monsters in the game. We also need swords so where should I place those? How about crops that friends can fertilize? What about some birds that show a lot of attitude? I’m sure people will love it!”
+
+As you can see from the exaggerated depiction above, a game might have all the “right game elements” but still be incredibly boring or stupid if they do not focus on their users’ motivations first. It is worth remembering that every single game in the market has what we call game mechanics and game elements. However, most are still boring and are financial losers. Only a few well-designed games become engaging and even addictive. Are you designing your experience to be the failing game or the successful game? How would you know?
+
+So let us look at how a good game designer might tackle the problem. Instead of starting with what game elements and game mechanics to use, the good game designer may begin by thinking, “Okay, how do I want my users to feel ? Do I want them to feel inspired? Do I want them to feel proud? Should they be scared? Anxious? What’s my goal for their intended experience?
+
+Once the designer understands how she wants her users to feel, then she begins to think, “Okay, what kind of game elements and mechanics can help me accomplish my goals of ensuring players feel this way.” The solution may lie in swords, plants, or perhaps word puzzles, but the whole point here is that game elements are just a means to an end, instead of an end in itself. Game elements are simply there to push and pull on their users’ behavioral core drives.
+
+As a result, in order to further explore, systemize, and scale methods of combining game mechanics with our motivational core drives, in 2012 I decided to share my original gamification design framework called Octalysis to the world. The Octalysis Framework embodies my life’s work, and the majority of this book will be about how to use Octalysis to design experiences that are fun, engaging, and rewarding.
+
+
+
+
+
+
+`
+
+
+
 const abbreviation = {
   // ·ment = mt 
 // ing = ng
@@ -188,7 +249,6 @@ const abbreviation = {
 'overcome': 'oṿrcoṃ',
 'question': 'que§¬', 'questions': 'que§¬s',
 'read': 'ṛad',
-'seem': 'sēm',
 'family': 'ƒṁł',
 'maybe': 'ɱyḅ',
 // A- \\
@@ -241,6 +301,8 @@ const abbreviation = {
 'adjustment': 'adj§ṃ£',
 'admission': 'adṁß¬',
 'adolescent': 'adḷsc£',
+'adapting': 'adapṫŋ',
+'adopting': 'adopṫŋ',
 'adoption': 'adopt¬',
 'adult': 'adlt',
 'advance': 'advnc',
@@ -762,7 +824,7 @@ const abbreviation = {
 'chest': 'cḥ§',
 'chicken': 'cḣcḳn',
 'chief': 'cḣef',
-'child': 'cḣld',
+'child': 'cḣld', 'children': 'cḣldṛn',
 'childhood': 'cḣldhōd',
 'chill': 'cḣl',
 'chin': 'cḣn',
@@ -1076,6 +1138,7 @@ const abbreviation = {
 'distribution': 'ḋ§¬',
 'distributing': 'ḋsṫŋ',
 'distributor': 'ḋ§or', 'distributors': 'ḋ§ors',
+'dive': 'ḋṿ',
 'division': 'ḋv', 'divisions': 'ḋvs',
 'delete': 'ḍl',
 
@@ -1230,6 +1293,8 @@ const abbreviation = {
 'division': 'ḋvis¬',
 'divorce': 'ḋvorc',
 'DNA': 'DNA',
+'doing': 'doiŋ', 'doings': 'doiŋs',
+'done': 'doṇ',
 'dock': 'dock',
 'doctor': 'do¢or', 'doctors': 'do¢ors',
 'doctrine': 'do¢ṙṇ',
@@ -1380,6 +1445,7 @@ const abbreviation = {
 'enemy': 'eṇmy',
 'energy': 'eṇrgy',
 'enforcement': 'enforcṃ£',
+'engage': 'enɠg', 'engages': 'enɠges',
 'engagement': 'enɠgeṃ£',
 'engaging': 'enɠġŋ',
 'engine': 'eŋ',
@@ -1496,6 +1562,7 @@ const abbreviation = {
 'extraordinary': 'extɼorḋɲỷ',
 'extreme': 'xtṛṃ', 'extremes': 'xtṛṃs',
 'extremely': 'xtṛṃł',
+'extrinsic': 'extṙnṡc',
 'eye': 'eỵ',
 'eyebrow': 'eỵbrow',
 
@@ -1580,6 +1647,7 @@ const abbreviation = {
 'financed': 'ḟncð',
 'financing': 'ḟnċŋ',
 'financial': 'ḟnċø', 'financials': 'ḟnċøs',
+'find': 'ḟnd', 'finds': 'ḟnds',
 'finding': 'ḟnḋŋ',
 'fine': 'ḟṇ',
 'finger': 'ḟŋer',
@@ -1930,6 +1998,7 @@ const abbreviation = {
 'interview': 'inṭrview',
 'interface': 'inṭrƒc', 'Interface': 'Inṭrƒc',
 'intimate': 'inṫɱṭ',
+'intrinsic': 'intṙnṡc',
 'into': 'i£o',
 'introduction': 'i£ro',
 'Introduction': 'I£ro',
@@ -2948,6 +3017,7 @@ const abbreviation = {
 'processing': 'proċŋ',
 'processor': 'procsor',
 'producer': 'producer',
+'produced': 'producð',
 'product': 'prod',
 'production': 'produ¢¬',
 'productive': 'producṫṿ',
@@ -3100,6 +3170,7 @@ const abbreviation = {
 'recession': 'ṛceß¬',
 'recipe': 'ṛċp', 'recipes': 'ṛċps',
 'recipient': 'ṛċṗe£',
+'recognized': 'ṛcogṅzð',
 'recognition': 'ṛcogṅt¬',
 'recommendation': 'ṛcoṃnɗt¬',
 'record': 'ṛcord',
@@ -3326,8 +3397,11 @@ const abbreviation = {
 'secular': 'ṣcular',
 'secure': 'ṣcuṛ',
 'security': 'ṣcuṙ¥',
-'seed': 'sēd',
+'see': 'sē',
+'seen': 'sēn',
+'seem': 'sēm',
 'seemingly': 'sēṁŋł',
+'seed': 'sēd',
 'segment': 'ṣgṃ£',
 'seldom': 'ṣldom',
 'selected': 'ṣḷ¢ð',
@@ -3518,6 +3592,7 @@ const abbreviation = {
 'space': 'sƥc',
 'Spanish': 'Sƥṅsh',
 'speaker': 'speaḳr',
+'speaking': 'speakiŋ',
 'special': 'speċø',
 'specialist': 'speċøi§',
 'specialty': 'speċØ¥',
@@ -3726,7 +3801,7 @@ const abbreviation = {
 'tank': 'ƭnk',
 'tape': 'ƭpe',
 'target': 'ƭrget',
-'task': 'ƭsk',
+'task': 'ƭsk', 'tasks': 'ƭsks',
 'taste': 'ƭsṭ',
 'tax': 'ƭx',
 'taxpayer': 'ƭxƥỵr',
@@ -4171,7 +4246,7 @@ const abbreviation = {
 
 // Y- \\
 'yard': 'yard',
-'year': 'ỵar',
+'year': 'ỵar', 'years': 'ỵars',
 'yellow': 'ỵllow',
 'yes': 'ỵs',
 'yesterday': 'ỵsṭrɗy',
@@ -4237,29 +4312,6 @@ function transformBoustrophedon(txt) {
 }
 
 
-const text = `
-Introduction
-
-This book is not about why gamification is amazing. It is not about how gamification is the future and how inspiring life could be with it. It is not necessarily for the late adopters who are simply curious about what gamification is. It also does not focus on what the gamification industry is doing as a whole, especially when that is continuously changing every month. Rather, this book is about implementing good gamification design into your products, workplace, and lifestyle.
-
-It is a deep exploration into what makes a game fun and how to apply those fun and engaging elements in real-life productive activities. It is about how you can use gamification and scientifically proven methods to improve your company, your life, and the lives of those around you.
-
-Effective gamification is a combination of game design, game dynamics, behavioral economics, motivational psychology, UX/UI (User Experience and User Interface), neurobiology, technology platforms, as well as ROI-driving business implementations. This book explores the interplay between these disciplines to capture the core principles that contribute to good gamification design. I will be sharing my observations in multiple industries and sectors based on my 12-year journey of passionately and relentlessly pursuing the craft of Gamification.
-
-Chapters in this book tend to build on previous chapters, so skipping around is not suggested. That said, if you have been an avid reader of my work and viewer of my videos, you might already have a firm grasp of the 8 Core Drives within the Octalysis Framework. In that case, feel free to skip to a section that you want to home in on.
-
-If you are extremely busy and aren’t sure if you want to commit to this book, I recommend starting off with Chapters 3, 5, 10, 14, and 15 to decide whether you would like to read the entire book.
-
-Within the book, there will be many everyday scenarios to illustrate the potential of these Core Drives and the flexibility of their applications beyond traditional “gamification” examples. I myself still constantly gain new insights and revelations when I reflect and speculate upon the various possibilities contained in the 8 Core Drives. I hope you do too.
-
-As this book is titled “Actionable Gamification,” my goal is for it to become a strategy guide in helping my readers master the games that truly make a difference in their lives. If you absorb the contents of this book, you will have literally obtained what many companies pay tens of thousands of dollars to acquire.
-
-My ultimate aim is to enable the widespread adoption of good gamification and human-focused design in all types of industries. I care deeply about creating a world that is sustainably more enjoyable and productive. In that world, there no longer will be a great divide between what people have to do and what they want to do - our lives become better as we spend time enjoying everything we do.
-
-I’m excited for you to dive into the contents of this book so that we can start to build a world that harnesses the power of play together . Let’s begin.
-
-Yu-kai Chou (Written February 14th 2014)
-`
 
 const str = formatting(text)
 
@@ -4274,8 +4326,8 @@ function formatting(text) {
 
   for (let word of  words) {
     if(abbreviation.hasOwnProperty(word)) words[words.indexOf(word)] = abbreviation[word] //`<span class="abbreviation">${abbreviation[word]}</span>`
-  }
-
+  } 
+ 
   return words.join(" ")
 }
 
@@ -4290,3 +4342,23 @@ function b(arr) {
 }
 
 p_block.innerHTML = b(result).join("<br>");
+
+
+// Ɱḳ t word forɱttð for capslock n pounctuat¬ words to work \\
+function test(text) {
+  const words = text.split(" ")
+
+  for (let word of words) {
+    for (let char of word) {
+      console.log(char)
+      if (char == '.') {
+         
+      }
+    }
+  } 
+ 
+  return words.join(" ")
+}
+
+
+console.log(test('amazing.'))
