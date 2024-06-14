@@ -157,59 +157,19 @@ SUFFIXES
 */
 
 
+const text1 = `
 
-const text = `
-
-Of course that’s also what a lot of gamification platforms specialize in: adding PBLs into various products in a scalable manner. And as a result, many people who are less informed but curious about gamification start to believe that the sum total of gamification methodology and philosophy is merely the process of adding points, badges, and leaderboards to products. Justifiably, this leads them to believe that gamification is a shallow fad and not very impactful.
-
-This has also generated a backlash from the game development community, as they claim that gamification is a bastardization of the true essence intrinsic to good gaming. And who can blame them? Foursquare seems to be nothing more than points, badges, and leaderboards based on going to places, while Nike+ seems to be the same thing based on running. Is this as deep as gamification goes?
-
-Of course, points, badges, and leaderboards do have a place in game design. That’s why you see them in so many different games. They have the ability to motivate behavior and push people towards certain actions. But gamification is so much more than PBLs. Many gamification professionals are only familiar with how to implement PBL mechanics and even though these do create value, most of them completely miss the point of engaging the user. It is not unusual for users to feel insulted by shallow shell mechanics.
-
-If you ask any gamer what makes a game fun, they will not tell you that it is because of the PBLs. They play it because there are elements of strategy and great ways to spend time with friends, or they want to challenge themselves to overcome difficult obstacles. The points and badges are often an added bonus that’s nice to have depending on the context. This is the difference between extrinsic motivation, where you are engaged because of a goal or reward, and intrinsic motivation, where the activity itself is fun and exciting, with or without a reward. We’ll dive deeper into these distinctions in Chapter 13 on Left Brain vs Right Brain Motivations.
-
-<h3>A Trojan Horse without Greek Soldiers</h3>
-
-Generic game mechanics and poorly constructed game elements such as levels, boss fights, or quests often fall into the same hole as PBLs. Simply put, applying traditional “game elements” ubiquitous in popular gameplay without diving deeper into user motivation contributes to shallow user experience: it’s all flash and no bang. An almost humorous example of this is when people I meet call something a “quest” instead of a “task” thinking that this automatically makes the same original actions fun and engaging. Sure, having a playful attitude can make a big difference, but it only goes so far, especially when your customers and employees may already distrust your motives.
-
-<b>The truth is, simply incorporating game mechanics and game elements does not make a game fun.</b>
-
-Games aren’t necessarily fun because of high quality graphics or flashy animations either. There are many unpopular, poor-selling games with state-of-the-art 3D high- resolution graphics. There are also games with very basic graphics such as Minecraft, or even no graphics, such as the purely text-based multi-user dungeon games (MUDs), that have large communities of players addicted to them. Clearly, there are more to games than “meets the eye.”
-
-Unfortunately, a lot of people who work in gamification incorrectly think that applying game mechanics like points, badges, and leaderboards – elements that you can also find in boring and unsuccessful games - will automatically make the product or experience fun and engaging. Unfortunately, it’s not just what game elements you put in - it’s how, when, and most importantly, why these game elements appear.
-
-It would be foolish for a modern army commander to say, “Hey! The Greeks sent a big wooden horse to the Trojans and won the war. Lets send our enemies a big wooden horse too!” In this case, he clearly doesn’t understand the true design behind the Trojan Horse, but he only copied the outer shell of it. Instead, it would be much more effective if he created a virus that pretended to be a normal file to corrupt enemy computers. Learn from the design; don’t copy the shell.
-
-<h3>The Threat and Opportunities in Gamification</h3>
-
-Even though gamification has become accepted in the mainstream, poorly designed applications threaten its long-term viability and impact development. I am genuinely afraid that in a few years, companies will look at gamification and say, “Hey, we tried the points stuff and it didn’t work out. I guess gamification was just a short-term fad.”
-
-<i>That would be a huge loss for the world.</i>
-
-Based on my years of research, observation, and design in gamification, I am a hundred percent certain that good gamification design can unlock tremendous potential and improve many lives in the process. There are hundreds of case studies that illustrate this also. And so it is my job (and hopefully yours one day) to continue protecting and innovating the core essence and the promise of gamification.
-
-In the long run, the term “gamification” might actually fade and eventually disappear. Currently, no one describes a website’s design as being “so Web 2.0!” Gamification may just become the normal way we design, implement, and interact with the world around us. It’s my hope that the principles that optimize for human motivation becomes the standard for good design across the board.
-
-Fortunately, there are enough good gamification examples that continue to show how thoughtful design can improve core business metrics and inspire new ways of thinking and execution. Besides the 90+ Gamification Case Studies listed on my site, as mentioned in the last chapter, it is interesting to note that some of the best historical examples of gamification, such as eBay or Woot.com, have not been categorized as gamification by most people in the industry. There are dozens, if not hundreds of companies that became extremely successful because, regardless of what it was called, they applied great game mechanics and gameplay dynamics to their processes. Some of these examples are illustrated in the following chapters.
-
-Because of these success stories, I believe that gamification will continue to evolve and meet real needs if practitioners and the general gamification community also evolve in their understanding of its principles and practice.
-
-So if “game mechanics” alone are not the true reason why games are so engaging and sometimes addictive, then what is?
-
-<h3>The Story of the Good Designer vs. Bad Designer</h3>
-To understand the core of good gamification design, let’s start with an example of how a bad game designer might design a game.
-
-In designing a game, a bad designer might start off thinking, “Okay, what popular game mechanics and game elements should I use? Well, of course we need monsters in the game. We also need swords so where should I place those? How about crops that friends can fertilize? What about some birds that show a lot of attitude? I’m sure people will love it!”
-
-As you can see from the exaggerated depiction above, a game might have all the “right game elements” but still be incredibly boring or stupid if they do not focus on their users’ motivations first. It is worth remembering that every single game in the market has what we call game mechanics and game elements. However, most are still boring and are financial losers. Only a few well-designed games become engaging and even addictive. Are you designing your experience to be the failing game or the successful game? How would you know?
-
-So let us look at how a good game designer might tackle the problem. Instead of starting with what game elements and game mechanics to use, the good game designer may begin by thinking, “Okay, how do I want my users to feel ? Do I want them to feel inspired? Do I want them to feel proud? Should they be scared? Anxious? What’s my goal for their intended experience?
-
-Once the designer understands how she wants her users to feel, then she begins to think, “Okay, what kind of game elements and mechanics can help me accomplish my goals of ensuring players feel this way.” The solution may lie in swords, plants, or perhaps word puzzles, but the whole point here is that game elements are just a means to an end, instead of an end in itself. Game elements are simply there to push and pull on their users’ behavioral core drives.
-
-As a result, in order to further explore, systemize, and scale methods of combining game mechanics with our motivational core drives, in 2012 I decided to share my original gamification design framework called Octalysis to the world. The Octalysis Framework embodies my life’s work, and the majority of this book will be about how to use Octalysis to design experiences that are fun, engaging, and rewarding.
-
-
+A firm that is the only seller of a product or service having no close
+substitutes is said to enjoy a monopoly.1 Monopoly is an important
+concept to this Article but even more important is the related but
+somewhat less familiar concept of "natural monopoly." The term
+does not refer to the actual number of sellers in a market but to the
+relationship between demand and the technology of supply. If the
+entire demand within a relevant market can be satisfied at lowest
+cost by one firm rather than by two or more, the market is a natural
+monopoly, whatever the actual number of firms in it. If such a mar-
+ket contains more than one firm, either the firms will quickly shake
+down to one through mergers or failures, or production will continue to consume more resources than necessary.
 
 
 
@@ -223,13 +183,12 @@ const abbreviation = {
 // ing = ng
 // cal = al
 'for': 'f',
-'you': 'u',
-'your': 'ur',
-'yours': 'urs',
 'want': 'ⱳ£',
 'would': 'wôld',
 'have': 'ɦṿ',
-'having': 'ɦvŋ',
+'having': 'ɦviŋ',
+'has': 'ɦs',
+'had': 'ɦd',
 'here': 'ḥṛ',
 'just': 'ju§',
 'unlike': 'unŀḳ',
@@ -260,7 +219,7 @@ const abbreviation = {
 
 'above': 'aboṿ',
 'abroad': 'abrd',
-'absence': 'abṣnc',
+'absence': 'abṣnce',
 'absolute': 'absluṭ',
 'absolutely': 'absluṭł',
 'abstract': 'ab§ɼ¢',
@@ -268,8 +227,8 @@ const abbreviation = {
 'academic': 'aƈḍṁk',
 'accent': 'ac£',
 'acceptable': 'acpƭbḷ',
-'acceptance': 'acpƭnc',
-'access': 'acß',
+'acceptance': 'acpƭnce',
+'access': 'aceß',
 'accessible': 'aceßibḷ',
 'accident': 'acċḍ£',
 'accomplishment': 'accompŀshṃ£',
@@ -305,12 +264,12 @@ const abbreviation = {
 'adopting': 'adopṫŋ',
 'adoption': 'adopt¬',
 'adult': 'adlt',
-'advance': 'advnc',
+'advance': 'advnce',
 'advanced': 'advncð',
 'advantage': 'advnƭg',
 'adventure': 'adṿ£uṛ',
 'advertising': 'adṿrṫṡŋ',
-'advice': 'advc',
+'advice': 'advice',
 'adviser': 'adviṣr',
 'advocate': 'advc@e',
 'aesthetic': 'æ§ḥṫc',
@@ -343,22 +302,23 @@ const abbreviation = {
 'alike': 'øiḳ',
 'alive': 'øiṿ',
 'all': 'ø',
+'All': 'Ø',
 'allegation': 'øḷg@t¬',
 'alleged': 'øḷgð',
 'allegedly': 'øḷgðł',
 'alley': 'øey',
-'alliance': 'øŀanc',
+'alliance': 'øŀance',
 'ally': 'øy',
 'almost': 'øm§',
 'alone': 'øoṇ',
-'along': 'øŋ',
-'alongside': 'øŋṡḍ',
+'along': 'øoŋ',
+'alongside': 'øoŋṡḍ',
 'already': 'øṛdy',
 'also': 'øs',
 'alternative': 'øt',
 'although': 'øŧôgh',
-'altogether': 'øtogtḥr',
-'always': 'øⱳys',
+'altogether': 'øtogŧr',
+'always': 'øⱳys', 'Always': 'Øⱳys',
 'amazing': 'aɱżŋ',
 'ambassador': 'amɓʂdr',
 'ambition': 'amḃt¬',
@@ -371,17 +331,17 @@ const abbreviation = {
 'analyst': 'aɲly§',
 'ancestor': 'anc§r',
 'ancient': 'anċe£',
-'and': 'n',
+'and': 'n', 'And': 'N',
 'angel': 'aŋel',
 'anger': 'aŋer',
 'angle': 'aŋḷ',
 'animal': 'aṅɱl',
 'anniversary': 'anṅṿrʂỷ',
-'announcement': 'anoncṃ£',
+'announcement': 'anonceṃ£',
 'annual': 'annuø',
 'annually': 'annuøł',
 'anonymous': 'anonymôs',
-'another': 'anotḥr',
+'another': 'anoŧer',
 'answer': 'ansẉr',
 'anxiety': 'anẋe¥',
 'anxious': 'anẋôs',
@@ -396,7 +356,7 @@ const abbreviation = {
 'apparent': 'aƥṛ£',
 'apparently': 'aƥṛ£ł',
 'appeal': 'appeø',
-'appearance': 'apɼnc',
+'appearance': 'apɼnce',
 'apple': 'apḷ',
 'application': 'appŀc@¬',
 'appointment': 'appö£ṃ£',
@@ -431,12 +391,13 @@ const abbreviation = {
 'assessment': 'aṣßṃ£',
 'asset': 'aṣt',
 'assignment': 'aßignṃ£',
-'assistance': 'aßisƭnc',
+'assistance': 'aßisƭnce',
 'assistant': 'aßisƭ£',
 'associate': 'aßoċaṭ',
 'associated': 'aßoċ@ð',
 'association': 'aßoċ@¬',
 'assumption': 'aßumpt¬',
+'assure': 'aßure',
 'astronomer': 'a§ronoṃr',
 'at': '@',
 'athlete': '@hḷṭ',
@@ -445,7 +406,7 @@ const abbreviation = {
 'atop': '@op',
 'attack': '@ck',
 'attempt': '@ṭmpt',
-'attendance': '@ṭðanc',
+'attendance': '@ṭðance',
 'attention': '@ṭ£¬',
 'attitude': '@ṫuḍ', 'attitudes': '@ṫuḍs',
 'attorney': '@orṇy',
@@ -453,11 +414,11 @@ const abbreviation = {
 'attractive': '@ɼcṫṿ',
 'auction': 'ă¢¬',
 'audience': 'ăḋence',
-'author': 'ăŧor',
-'authority': 'ăŧoṙ¥',
-'automatic': 'ătoɱṫc',
-'automobile': 'ătomḃḷ',
-'autonomy': 'ătonmy',
+'author': 'âŧor',
+'authority': 'âŧoṙ¥',
+'automatic': 'âtoɱṫc',
+'automobile': 'âtomḃḷ',
+'autonomy': 'âtonmy',
 'availability': 'avälḃŀ¥',
 'available': 'avälbḷ',
 'average': 'aṿg',
@@ -469,7 +430,7 @@ const abbreviation = {
 
 
 'away': 'aⱳy',
-'acknowledge': 'acknowḷdg',
+'acknowledge': 'acknowlðge',
 'advantage': 'advƭg', 'advantages': 'advƭgs',
 'accelerate': 'aceḷɼṭ',
 'adjective': 'adj',
@@ -505,7 +466,7 @@ const abbreviation = {
 'bad': 'ɓd',
 'badly': 'ɓdly',
 'bag': 'ɓg',
-'balance': 'ɓlanc',
+'balance': 'ɓlance',
 'balanced': 'ɓlncð',
 'ball': 'ɓl',
 'balloon': 'ɓlōn',
@@ -523,7 +484,8 @@ const abbreviation = {
 'barn': 'ɓrn',
 'barrel': 'ɓṛl',
 'barrier': 'ɓṙer',
-'base': 'ɓṣ',
+'base': 'ɓṣ', 'bases': 'ɓṣs', 'Base': 'Ɓṣ', 'Bases': 'Ɓṣs',
+'based': 'ɓsð', 'Based': 'Ɓsð',
 'baseball': 'ɓṣɓl',
 'basement': 'ɓṣṃ£',
 'basic': 'ɓṡc',
@@ -547,12 +509,13 @@ const abbreviation = {
 'beat': 'ḅ@',
 'beautiful': 'ḅauṫful',
 'beauty': 'ḅau¥',
-'because': 'ḅƈuṣ',
+'because': 'cuz',
 'bed': 'ḅð',
 'bedroom': 'ḅðrōm',
 'bee': 'bē',
 'beef': 'ḅf',
 'beer': 'ḅr',
+'been': 'bēn', 'Been': 'Bēn',
 'before': 'ḅfoṛ',
 'beginning': 'ḅġṅŋ',
 'behalf': 'ḅɦlf',
@@ -702,8 +665,8 @@ const abbreviation = {
 'country': 'cô£ỷ',
 'create': 'cṛaṭ', 'creates': 'cṛaṭs',
 'complete': 'cmpḷt', 'completes': 'cmpḷts',
-'concept': 'concpt', 'concepts': 'concpts',
-'compete': 'compṭ', 'competes': 'compṭs',
+'concept': 'concept', 'concepts': 'concepts',
+'compete': 'compeṭ', 'competes': 'compeṭs',
 'compare': 'cmƥṛ', 'compares': 'cmƥṛs',
 'customer': 'cu§omr', 'customers': 'cu§omrs',
 'catholic': 'ƈŧoŀc',
@@ -786,16 +749,16 @@ const abbreviation = {
 'celebration': 'ceḷbɼt¬',
 'celebrity': 'ceḷbṙ¥',
 'cell': 'cel',
-'cemetery': 'cṃṭỷ',
+'cemetery': 'ceṃṭỷ',
 
-'center': 'cṭr',
-'centre': 'cṭr',
+'center': 'cenṭr',
+'centre': 'cenṭr',
 'central': '¢ɼl',
 'centralized': '¢ɼŀzð',
-'century': 'c£uỷ',
-'ceremony': 'cṛmony',
-'certain': 'crƭin',
-'certainly': 'crƭinł',
+'century': 'cen£uỷ',
+'ceremony': 'ceṛmony',
+'certain': 'cerƭin',
+'certainly': 'cerƭinł',
 'chain': 'cɦin',
 'chair': 'cɦir',
 'chairman': 'cɦirɱn',
@@ -804,14 +767,15 @@ const abbreviation = {
 'champion': 'cɦmp',
 'championship': 'cɦmpsḣp',
 'chance': 'cɦnc',
-'change': 'cɦŋg', 'changes': 'cɦŋgs',
+'change': 'cɦŋe', 'changes': 'cɦŋes',
 'changing': 'cɦŋiŋ',
 'channel': 'cɦṇl',
 'chaos': 'cɦos',
 'chapter': 'cɦpṭr',
-'character': 'cɦr',
-'characteristic': 'cɦṙsṫc',
-'charge': 'cɦrg',
+'character': 'cɦr', 'characters': 'cɦrs',
+'characterized': 'cɦrzð',
+'characteristic': 'cɦṙsṫc', 'characteristics': 'cɦṙsṫcs',
+'charge': 'cɦrge',
 'charity': 'cɦṙ¥',
 'charm': 'cɦrm',
 'chart': 'cɦrt',
@@ -830,8 +794,9 @@ const abbreviation = {
 'chin': 'cḣn',
 'Chinese': 'Cḣṇṣ',
 'chip': 'cḣp',
-'chocolate': 'ħocolaṭ',
+'choose': 'ħōṣ', 'chooses': 'ħōṣs',
 'choice': 'ħöc',
+'chocolate': 'ħocolaṭ',
 'cholesterol': 'ħoḷsṭrol',
 'Christian': 'Chṙsṫan',
 'Christianity': 'Chṙsṫaṅ¥',
@@ -970,7 +935,7 @@ const abbreviation = {
 'confusion': 'confus¬',
 'Congress': 'Coŋṛß',
 'congressional': 'coŋṛß¬ø',
-'connection': 'coṇ¢¬',
+'connection': 'coṇ¢¬', 'connection': 'coṇ¢¬s',
 'conscience': 'consċenc',
 'conscious': 'consċôs',
 'consciousness': 'consċôsṇß',
@@ -1175,7 +1140,8 @@ const abbreviation = {
 'decision': 'ḍċs¬',
 'deck': 'ḍck',
 'decline': 'ḍcŀṇ',
-'deep': 'dēp',
+'deep': 'dēp', 
+'deepest': 'dēpe§',
 'deeply': 'dēpł',
 'deer': 'dēr',
 'defeat': 'ḍfe@',
@@ -1228,10 +1194,10 @@ const abbreviation = {
 'determination': 'ḍṭrṁɲt¬',
 'devastating': 'ḍvasƭṫŋ',
 'developer': 'ḍṿr', 'developers': 'ḍṿrs',
-'develop': 'ḍvlop',
+'develop': 'ḍv', 'developed': 'ḍvð',
 'developer': 'ḍvloper',
-'developing': 'ḍvloṗŋ',
-'development': 'ḍv',
+'developing': 'ḍviŋ',
+'development': 'ḍvṃ£',
 'developmental': 'ḍvlopṃnƭl',
 'device': 'ḍvic',
 'devil': 'ḍvil',
@@ -1241,7 +1207,7 @@ const abbreviation = {
 'diamond': 'ḋamođ',
 'diary': 'ḋaỷ',
 'diet': 'ḋet',
-'difference': 'ḋfṛnc',
+'difference': 'ḋfṛnce',
 'different': 'ḋf',
 'differently': 'ḋfṛ£ł',
 'difficult': 'ḋfcut',
@@ -1360,7 +1326,7 @@ const abbreviation = {
 'executive': 'execṿ', 'executives': 'execṿs',
 'explore': 'expl', 'explores': 'expls',
 'exploration': 'explor@¬', 'explorations': 'explor@¬s',
-'example': 'ex',
+'example': 'e.', 'examples': 'es.',
 'expense': 'expṣ',
 
 
@@ -1560,8 +1526,8 @@ const abbreviation = {
 'external': 'exṭrɲl',
 'extra': 'extɼ',
 'extraordinary': 'extɼorḋɲỷ',
-'extreme': 'xtṛṃ', 'extremes': 'xtṛṃs',
-'extremely': 'xtṛṃł',
+'extreme': 'extṛṃ', 'extremes': 'extṛṃs',
+'extremely': 'extṛṃł',
 'extrinsic': 'extṙnṡc',
 'eye': 'eỵ',
 'eyebrow': 'eỵbrow',
@@ -1785,7 +1751,9 @@ const abbreviation = {
 'gene': 'geṇ',
 'general': 'geṇɼl',
 'generally': 'geṇɼł',
-'generation': 'geṇɼt¬',
+'generate': 'gen', 'generates': 'gens',
+'generator': 'gentor',
+'generation': 'gent¬', 'generations': 'gent¬s',
 'generous': 'geṇrôs',
 'genetic': 'geṇṫc',
 'genius': 'geṅus',
@@ -1802,6 +1770,8 @@ const abbreviation = {
 'gifted': 'ġftð',
 'girl': 'ġrl',
 'girlfriend': 'ġrlfṙeđ',
+'give': 'ġṿ', 'gives': 'ġṿs',
+'giving': 'ġviŋ', 'givings': 'ġviŋs',
 'given': 'ġṿn',
 'glad': 'glad',
 'glance': 'glanc',
@@ -1817,7 +1787,7 @@ const abbreviation = {
 'gold': 'gold',
 'golden': 'golḍn',
 'golf': 'golf',
-'good': 'gōd',
+'good': 'gōd', 'goods': 'gōds', 'Good': 'Gōd', 'Goods': 'Gōds',
 'governor': 'govnor',
 'grace': 'gɼc',
 'grade': 'gɼḍ',
@@ -1825,6 +1795,7 @@ const abbreviation = {
 'graduate': 'gɼduaṭ',
 'graduation': 'gɼdu@¬',
 'grain': 'gɼin',
+'grammar': 'gɼmɱr',
 'grand': 'gɼđ',
 'grandchild': 'gɼđcḣld',
 'grandfather': 'gɼđƒŧer',
@@ -1875,7 +1846,7 @@ const abbreviation = {
 
 'ice': 'ice',
 'icon': 'icon',
-'idea': 'iḍa',
+'idea': 'iḍa', 'ideas': 'iḍas',
 'ideal': 'iḍø',
 'identical': 'iḍnṫƈl',
 'identification': 'iḍnṫḟƈt¬',
@@ -1884,10 +1855,10 @@ const abbreviation = {
 'ideology': 'iḍology',
 'if': 'if',
 'ill': 'ill',
-'illegal': 'ilḷɠø',
+'illegal': 'ilḷgø',
 'illness': 'illṇß',
 'illusion': 'illus¬',
-'image': 'iɱg', 'images': 'iɱgs',
+'image': 'iɱge', 'images': 'iɱges',
 'imagination': 'iɱġɲt¬',
 'immediate': 'iṃḋaṭ',
 'immediately': 'iṃḋaṭł',
@@ -1898,7 +1869,7 @@ const abbreviation = {
 'implementation': 'impḷṃnƭt¬',
 'implication': 'impŀƈt¬',
 'import': 'import',
-'importance': 'imporƭnc',
+'importance': 'imporƭnce',
 'important': 'imporƭ£',
 'importantly': 'imporƭ£ł',
 'impossible': 'impoßibḷ',
@@ -1919,14 +1890,14 @@ const abbreviation = {
 'incredible': 'incṛḍbḷ',
 'incredibly': 'incṛḍbł',
 'indeed': 'iđēd',
-'independence': 'iđepenḍnc',
+'independence': 'iđepenḍnce',
 'independent': 'iđepenḍ£',
-'index': 'inḍex',
+'index': 'inḍx',
 'Indian': 'Inḍan',
 'indication': 'inḍƈt¬',
 'indicator': 'inḍƈtor',
 'indigenous': 'inḍgenôs',
-'individual': 'inḍviduø',
+'individual': 'inḋviduø',
 'industrial': 'iđu§ṙø',
 'industry': 'iđu§ỷ',
 'inevitable': 'iṇviƭbḷ',
@@ -1934,7 +1905,7 @@ const abbreviation = {
 'infant': 'inƒ£',
 'infection': 'infe¢¬',
 'inflation': 'infl@¬',
-'influence': 'influenc',
+'influence': 'influence',
 'influential': 'influenṫø',
 'informal': 'inforɱl',
 'information': 'info',
@@ -1985,7 +1956,7 @@ const abbreviation = {
 'intent': 'inṭ£',
 'intention': 'inṭ£¬',
 'interaction': 'inṭɼ¢¬',
-'interest': 'inṭṛ§',
+'interest': 'inṭṛ§', 'interests': 'inṭṛ§s',
 'interested': 'inṭṛ§ð',
 'interesting': 'inṭṛ§iŋ',
 'interior': 'inṭṙor',
@@ -2059,7 +2030,7 @@ const abbreviation = {
 'hat': 'ɦt',
 'hay': 'ɦy',
 'hazard': 'ɦzard',
-'he': 'ḥ',
+'he': 'ḥ', 'He': 'Ḥ',
 'head': 'ḥad',
 'headache': 'ḥaɗcḥ',
 'headline': 'ḥadŀṇ',
@@ -2100,7 +2071,7 @@ const abbreviation = {
 'himself': 'ḣmṣlf',
 'hint': 'ḣ£',
 'hip': 'ḣp',
-'his': 'ḣs',
+'his': 'ḣs', 'His': 'Ḣs',
 'Hispanic': 'Ḣsƥṅc',
 'historian': 'ḣ§oṙan',
 'historic': 'ḣ§oṙc',
@@ -2112,7 +2083,7 @@ const abbreviation = {
 'hold': 'hold',
 'hole': 'hoḷ',
 'holiday': 'hoŀɗy',
-'holy': 'holy',
+'holy': 'hoł',
 'home': 'hoṃ',
 'homeland': 'hoṃlađ',
 'homeless': 'hoṃḷß',
@@ -2121,7 +2092,7 @@ const abbreviation = {
 'honestly': 'hoṇ§ł',
 'honey': 'hoṇy',
 'honor': 'honor',
-'hook': 'hōk',
+'hook': 'hōk', 'hooks': 'hōks',
 'hope': 'hope',
 'hopefully': 'hopefulł',
 'horizon': 'hoṙzon',
@@ -2194,7 +2165,7 @@ const abbreviation = {
 'kid': 'kid',
 'killer': 'kiḷr',
 'killing': 'kilŀŋ',
-'kind': 'kiđ',
+'kind': 'kiđ', 'kinds': 'kiđs',
 'king': 'kiŋ',
 'kingdom': 'kiŋdom',
 'kiss': 'kiß',
@@ -2203,13 +2174,12 @@ const abbreviation = {
 'knee': 'knē',
 'knife': 'kṅfe',
 'know': 'know',
-'knowledge': 'knowḷdge',
+'knowledge': 'knowlðge',
 'Korean': 'Koṛan',
 
 // L- \\
 'leave': 'ḷaṿ', 'leaves': 'ḷaṿs',
 'leaving': 'ḷaviŋ',
-'language': 'laŋ', 'languages': 'laŋs',
 'limited': 'ŀṁtð',
 'litigation': 'ŀṫɠt¬',
 'large': 'larg',
@@ -2230,7 +2200,7 @@ const abbreviation = {
 'landmark': 'lađɱrk',
 'landscape': 'lađsƈp',
 'lane': 'laṇ',
-'language': 'laŋuage',
+'language': 'laŋ', 'languages': 'laŋs',
 'lap': 'lap',
 'large': 'large',
 'largely': 'largeł',
@@ -2334,6 +2304,7 @@ const abbreviation = {
 'long-term': 'loŋ-ṭrm',
 'longtime': 'loŋṫṃ',
 'look': 'lōk', 'looks': 'lōks',
+'looking': 'lōkiŋ', 'lookings': 'lōkiŋs',
 'loop': 'lōp',
 'loose': 'lōṣ',
 'loss': 'loß',
@@ -2357,8 +2328,8 @@ const abbreviation = {
 'meeting': 'mēṫŋ', 'meetings': 'mēṫŋs',
 'method': 'ṃŧd', 'methods': 'ṃŧds',
 'matter': 'ɱtṭr', 'matters': 'ɱtṭrs',
-'make': 'ɱḳ', 'makes': 'ɱḳs',
-'making': 'ɱk¬',
+'make': 'ɱḳ', 'makes': 'ɱḳs', 'Make': 'Ɱḳ', 'Makes': 'Ɱḳs',
+'making': 'ɱkiŋ',
 'mutual': 'mut',
 'medium': 'ṃḍum',
 'millisecond': 'ṁlŀṣc', 'milliseconds': 'ṁlŀṣcs',
@@ -2391,7 +2362,7 @@ const abbreviation = {
 'manual': 'ɱnuø',
 'manufacture': 'ɱnuf',
 'manufacturing': 'ɱnuḟŋ',
-'manufacturer': 'ɱnufer',
+'manufacturer': 'ɱnufer', 'manufacturers': 'ɱnufers',
 'many': 'ɱny',
 'map': 'ɱp',
 'marble': 'ɱrbḷ',
@@ -2431,10 +2402,10 @@ const abbreviation = {
 'measurement': 'ṃasuṛṃ£',
 'meat': 'ṃ@',
 'mechanic': 'ṃħ',
-'mechanical': 'ṃħƈl',
+'mechanical': 'ṃħcø',
 'mechanism': 'ṃħṅsm',
 'medal': 'ṃɗl',
-'media': 'ṃḍa',
+'media': 'ṃḋa',
 'medical': 'ṃḍƈl',
 'medication': 'ṃḍƈt¬',
 'medicine': 'ṃd',
@@ -2517,7 +2488,7 @@ const abbreviation = {
 'morning': 'morṅŋ',
 'mortality': 'morƭŀ¥',
 'mortgage': 'mortɠg',
-'most': 'mo§',
+'most': 'mo§', 'Most': 'Mo§',
 'mostly': 'mo§ł',
 'mother': 'moŧer',
 'motion': 'mot¬',
@@ -2625,7 +2596,7 @@ const abbreviation = {
 'northwest': 'norŧẉ§',
 'nose': 'noṣ',
 'not': 'not',
-'note': 'noṭ',
+'note': 'noṭ', 'notes': 'noṭs', 'Note': 'Noṭ', 'Notes': 'Noṭs',
 'notebook': 'noṭbōk',
 'nothing': 'noŧiŋ',
 'notice': 'noṫc',
@@ -2634,7 +2605,7 @@ const abbreviation = {
 'now': 'now',
 'nowhere': 'nowḥṛ',
 'nuclear': 'nucḷar',
-'number': 'numḅr',
+'number': 'num', 'numbers': 'nums',
 'numerous': 'nuṃrôs',
 'nurse': 'nurṣ',
 'nut': 'nut',
@@ -2677,7 +2648,6 @@ const abbreviation = {
 'old-fashioned': 'old-ƒsḣonð',
 'Olympic': 'Olymṗc', 'Olympics': 'Olymṗcs',
 'on': 'on',
-'once': 'onc',
 'one': 'oṇ',
 'one-third': 'oṇ-ŧird',
 'ongoing': 'oŋöŋ',
@@ -2690,9 +2660,9 @@ const abbreviation = {
 'openly': 'openł',
 'opera': 'opeɼ',
 'operating': 'opeɼṫŋ',
-'operation': 'opeɼt¬',
+'operation': 'op', 'operations': 'ops',
 'operator': 'opeɼtor',
-'opinion': 'oṗ',
+'opinion': 'oṗ', 'Opinion': 'Oṗ', 'opnions': 'oṗs', 'Opinions': 'Oṗs',
 'opponent': 'oppoṇ£',
 'opportunity': 'opportuṅ¥',
 'opposed': 'opposð',
@@ -2890,8 +2860,8 @@ const abbreviation = {
 'pitch': 'ṗtħ',
 'pitcher': 'ṗtħer',
 'pizza': 'ṗzza',
-'place': 'plac',
-'placement': 'placṃ£',
+'place': 'place',
+'placement': 'placeṃ£',
 'plain': 'plän',
 'plaintiff': 'plänṫff',
 'plan': 'plan',
@@ -2931,7 +2901,7 @@ const abbreviation = {
 'pollution': 'pollut¬',
 'pond': 'pođ',
 'pool': 'pōl',
-'poor': 'pōr',
+'poor': 'pōr', 'Poor': 'Pōr',
 'pop': 'pop',
 'popular': 'popular',
 'popularity': 'populaṙ¥',
@@ -2991,7 +2961,7 @@ const abbreviation = {
 'prevention': 'pṛve£¬',
 'previous': 'pṛviôs',
 'previously': 'pṛviôsł',
-'price': 'pṙc',
+'price': 'pṙce',
 'pride': 'pṙḍ',
 'priest': 'pṙe§',
 'primarily': 'pṙɱṙł',
@@ -3045,6 +3015,7 @@ const abbreviation = {
 'proportion': 'proport¬',
 'proposal': 'propoʂl',
 'proposed': 'proposð',
+'proposition': 'proposit¬', 'propositions': 'proposit¬s',
 'prosecution': 'proṣ¢¬',
 'prosecutor': 'proṣcutor',
 'prospect': 'prospe¢',
@@ -3159,6 +3130,9 @@ const abbreviation = {
 'reality': 'ṛaŀ¥',
 'really': 'ṛał',
 'realm': 'ṛøm',
+'realize': 'ṛøiẓ', 'realizes': 'ṛøiẓs', 'Realize': 'Ṛøiẓ', 'Realizes': 'Ṛøiẓs',
+'realized': 'ṛøizð', 'Realized': 'Ṛøizð',
+'realised': 'ṛøizð', 'Realised': 'Ṛøizð',
 'rear': 'ṛar',
 'reason': 'ṛason',
 'reasonable': 'ṛasoɲbḷ',
@@ -3233,7 +3207,7 @@ const abbreviation = {
 'reputation': 'ṛpuƭt¬',
 'request': 'ṛque§',
 'required': 'ṛqürð',
-'requirement': 'ṛqüṛṃ£',
+'requirement': 'ṛqüṛṃ£', 'requirements': 'ṛqüṛṃ£s',
 'rescue': 'ṛscue',
 'research': 'ṛṣarħ', 'researchs': 'ṛṣarħs',
 'researcher': 'ṛṣarħer',
@@ -3245,7 +3219,7 @@ const abbreviation = {
 'resistance': 'ṛṡsƭnc',
 'resolution': 'ṛsolut¬',
 'resort': 'ṛsort',
-'resource': 'ṛsôrc', 'resources': 'ṛsôrcs',
+'resource': 'ṛsôrce', 'resources': 'ṛsôrces',
 'respect': 'ṛspe¢',
 'respectively': 'ṛspecṫṿł',
 'respondent': 'ṛsponḍ£',
@@ -3372,7 +3346,7 @@ const abbreviation = {
 'scheme': 'scḥṃ',
 'scholar': 'sħolar',
 'scholarship': 'sħolarsḣp',
-'school': 'sħo', 'schools': 'sħos',
+'school': 'sħōl', 'schools': 'sħōls',
 'science': 'sċ', 'sciences': 'sċs',
 'scientific': 'sċḟc',
 'scientifically': 'sċḟƈł',
@@ -3399,7 +3373,7 @@ const abbreviation = {
 'security': 'ṣcuṙ¥',
 'see': 'sē',
 'seen': 'sēn',
-'seem': 'sēm',
+'seem': 'sēm', 'seems': 'sēms',
 'seemingly': 'sēṁŋł',
 'seed': 'sēd',
 'segment': 'ṣgṃ£',
@@ -3408,6 +3382,7 @@ const abbreviation = {
 'selection': 'ṣḷ¢¬',
 'self': 'ṣlf',
 'self-esteem': 'ṣlf-e§ēm',
+'sell': 'ṣl', 'sells': 'ṣls',
 'seller': 'ṣlḷr',
 'seminar': 'ṣṁɲr',
 'Senate': 'Seɲt',
@@ -3428,7 +3403,7 @@ const abbreviation = {
 'serious': 'ṣṙôs',
 'seriously': 'ṣṙôsł',
 'servant': 'ṣrva£',
-'service': 'ṣrvic',
+'service': 'ṣrvice',
 'serving': 'ṣrviŋ',
 'session': 'ṣß¬',
 'set': 'ṣt',
@@ -3506,7 +3481,7 @@ const abbreviation = {
 'simply': 'ṡmpł',
 'simultaneously': 'ṡmulƭṇôsł',
 'sin': 'ṡn',
-'since': 'ṡnc',
+'since': 'ṡnce',
 'singer': 'ṡŋer',
 'single': 'ṡŋḷ',
 'sink': 'ṡnk',
@@ -3517,7 +3492,7 @@ const abbreviation = {
 'six': 'ṡx',
 'sixth': 'ṡxŧ',
 'size': 'ṡẓ',
-'skill': 'skl', 'skills': 'skls',
+'skill': 'skil', 'skills': 'skils',
 'skilled': 'skillð',
 'skin': 'skin',
 'skirt': 'skirt',
@@ -3582,14 +3557,14 @@ const abbreviation = {
 'soul': 'sôl',
 'sound': 'sôđ',
 'soup': 'sôp',
-'source': 'sôrc',
+'source': 'sôrce',
 'south': 'sôŧ',
 'southeast': 'sôŧea§',
 'southern': 'sôŧern',
 'southwest': 'sôŧẉ§',
 'sovereignty': 'soṿṛign¥',
 'Soviet': 'Soviet',
-'space': 'sƥc',
+'space': 'sƥce',
 'Spanish': 'Sƥṅsh',
 'speaker': 'speaḳr',
 'speaking': 'speakiŋ',
@@ -3604,7 +3579,7 @@ const abbreviation = {
 'speculation': 'specul@¬',
 'speech': 'spēħ',
 'speed': 'spēd',
-'spending': 'spenḍŋ',
+'spending': 'spenḋŋ',
 'sphere': 'spḥṛ',
 'spine': 'sṗṇ',
 'spirit': 'sṗṙt',
@@ -3630,7 +3605,7 @@ const abbreviation = {
 'stage': 'sƭge',
 'stair': 'sƭir',
 'stake': 'sƭḳ',
-'stance': 'sƭnc',
+'stance': 'sƭnce',
 'stand': 'sƭđ',
 'standing': 'sƭnḍŋ',
 'star': 'sƭr',
@@ -3654,7 +3629,7 @@ const abbreviation = {
 'steel': '§ēl',
 'steep': '§ēp',
 'stem': '§em',
-'step': '§ep',
+'step': '§ep', 'steps': '§eps',
 'stereotype': '§eṛo¥pe',
 'stick': '§ick',
 'stiff': '§iff',
@@ -3693,7 +3668,7 @@ const abbreviation = {
 'structural': '§ru¢uɼl',
 'structure': '§ru¢uṛ',
 'struggle': '§ruggḷ',
-'student': '§uḍ£',
+'student': '§uḍ£', 'students': '§uḍ£s',
 'studio': '§uḍo',
 'study': '§tudy',
 'stuff': '§uff',
@@ -3702,7 +3677,7 @@ const abbreviation = {
 'subject': 'subje¢',
 'subsequent': 'subṣque£',
 'subsidy': 'subṡdy',
-'substance': 'subsƭnc',
+'substance': 'subsƭnce',
 'substantial': 'subsƭnṫø',
 'substantially': 'subsƭnṫøł',
 'subtle': 'subtḷ',
@@ -3743,7 +3718,7 @@ const abbreviation = {
 'Supreme': 'Supṛṃ',
 'sure': 'suṛ',
 'surely': 'suṛł',
-'surface': 'surƒc',
+'surface': 'surƒce',
 'surgeon': 'surgeon',
 'surgery': 'surgeỷ',
 'surprise': 'surpṙṣ',
@@ -3751,7 +3726,7 @@ const abbreviation = {
 'surprising': 'surpṙṡŋ',
 'surprisingly': 'surpṙṡŋł',
 'surrounding': 'surrônḍŋ',
-'surveillance': 'surṿilanc',
+'surveillance': 'surṿilance',
 'survey': 'surṿy',
 'survival': 'survivø',
 'survivor': 'survivor',
@@ -3774,7 +3749,7 @@ const abbreviation = {
 'system': 'sys', 'systems': 'syß',
 
 // T- \\
-'the': 't',
+'the': 't', 'The': 'T',
 'these': 'ŧṣ',
 'there': 'ŧeṛ',
 'thereby': 'ŧeṛby',
@@ -3850,7 +3825,7 @@ const abbreviation = {
 'than': 'ŧan',
 'thanks': 'ŧanks',
 'Thanksgiving': 'ŧanksġviŋ',
-'that': 'ŧ@',
+'that': 'ŧ@', 'That': 'T@',
 'theater': 'ŧeaṭr',
 'their': 'ŧër',
 'them': 'ŧem',
@@ -3871,11 +3846,11 @@ const abbreviation = {
 'thick': 'ŧick',
 'thigh': 'ŧigh',
 'thin': 'ŧin',
-'thing': 'ŧiŋ',
+'thing': 'ŧiŋ', 'things': 'ŧiŋs', 'Thing': 'Ŧiŋ',
 'thinking': 'ŧinkiŋ',
 'third': 'ŧird',
 'thirty': 'ŧir¥',
-'this': 'ŧis',
+'this': 'ŧis', 'This': 'Ŧis',
 'thoroughly': 'ŧorôghł',
 'those': 'ŧoṣ',
 'though': 'ŧôgh',
@@ -3911,7 +3886,7 @@ const abbreviation = {
 'toe': 'toe',
 'together': 'togeŧer',
 'toilet': 'töḷt',
-'tolerance': 'toḷɼnc',
+'tolerance': 'toḷɼnce',
 'toll': 'toll',
 'tomato': 'toɱto',
 'tomorrow': 'tomorrow',
@@ -3919,8 +3894,9 @@ const abbreviation = {
 'tongue': 'toŋue',
 'tonight': 'toṅght',
 'too': 'tō',
-'tool': 'tōl',
+'tool': 'tōl', 'tools': 'tōls',
 'tooth': 'tōŧ',
+'took': 'tōk',
 'top': 'top',
 'topic': 'toṗc',
 'total': 'toƭl',
@@ -4013,15 +3989,15 @@ const abbreviation = {
 
 // U- \\
 'under': 'unḍr',
-'understand': 'unḍrƭd',
+'understand': 'unḍrsƭnd',
 'utility': 'u~i¥',
 
 'ugly': 'ugly',
 'ultimate': 'ulṫɱṭ',
 'ultimately': 'ulṫɱṭł',
 'unable': 'uɲbḷ',
-'uncertain': 'uncrƭin',
-'uncertainty': 'uncrƭin¥',
+'uncertain': 'uncerƭin',
+'uncertainty': 'uncerƭin¥',
 'uncle': 'uncḷ',
 'uncomfortable': 'uncomforƭbḷ',
 'under': 'unḍr',
@@ -4056,10 +4032,11 @@ const abbreviation = {
 'upstairs': 'up§ärs',
 'urban': 'urɓn',
 'us': 'us',
-'use': 'uṣ',
+'use': 'uṣ', 'uses': 'uṣs',
 'used': 'usð',
+'using': 'uṡŋ',
 'useful': 'uṣful',
-'user': 'uṣr',
+'user': 'uṣr', 'users': 'uṣrs',
 'usual': 'usuø',
 'usually': 'usuøł',
 
@@ -4072,7 +4049,7 @@ const abbreviation = {
 'valid': 'vaŀd',
 'validity': 'vaŀḍ¥',
 'valley': 'vaḷy',
-'valuable': 'vøuabḷ',
+'valuable': 'vøabḷ',
 'value': 'vø',
 'van': 'van',
 'variable': 'var',
@@ -4100,7 +4077,7 @@ const abbreviation = {
 'viewer': 'vieẉr',
 'village': 'vilg',
 'violation': 'viol@¬',
-'violence': 'vioḷnc',
+'violence': 'vioḷnce',
 'violent': 'vioḷ£',
 'virtual': 'virtuø',
 'virtually': 'virtuøł',
@@ -4114,7 +4091,7 @@ const abbreviation = {
 'vital': 'viƭl',
 'vitamin': 'vit',
 'vocal': 'voƈl',
-'voice': 'vöc',
+'voice': 'vöce',
 'volume': 'voluṃ',
 'voluntary': 'volunƭỷ',
 'volunteer': 'volu£ēr',
@@ -4127,7 +4104,7 @@ const abbreviation = {
 'wait': 'ⱳit',
 'work': 'work',
 'working': 'wrkiŋ',
-'worked': 'worḳd',
+'worked': 'worð',
 
 'wage': 'ⱳge',
 'wagon': 'ⱳgon',
@@ -4142,12 +4119,15 @@ const abbreviation = {
 'warmth': 'ⱳrmŧ',
 'warning': 'ⱳrṅŋ',
 'warrior': 'ⱳṙor',
+'was': 'ⱳs', 'Was': 'Ⱳs',
 'waste': 'ⱳ§e',
 'watch': 'ⱳtħ',
 'water': 'ⱳṭr',
 'wave': 'ⱳṿ',
 'way': 'ⱳy',
-'we': 'ẉ',
+'we': 'ẉ', 'We': 'Ẉ',
+'were': 'ẉṛ', 'Were': 'Ẉṛ',
+'wereas': 'ẉṛas', 'Wereas': 'Ẉṛas',
 'weak': 'ẉak',
 'weakness': 'ẉakṇß',
 'wealth': 'ẉøŧ',
@@ -4165,20 +4145,20 @@ const abbreviation = {
 'welcome': 'ẉlcoṃ',
 'welfare': 'ẉlƒṛ',
 'well': 'ẉl',
-'well-being': 'ẉll-ḅiŋ',
-'well-known': 'ẉll-known',
+'well-being': 'ẉl-ḅiŋ',
+'well-known': 'ẉl-known',
 'west': 'ẉ§',
 'western': 'ẉ§ern',
 'wet': 'ẉt',
 'whale': 'wɦḷ',
-'what': 'w@',
+'what': 'w@', 'What': 'W@',
 'whatever': 'w@eṿr',
 'wheat': 'wḥ@',
 'wheel': 'whēl',
 'wheelchair': 'whēlħär',
 'when': 'wḥn',
 'whenever': 'wḥṇṿr',
-'where': 'wḥṛ',
+'where': 'wḥṛ', 'Where': 'Wḥṛ',
 'whereas': 'wḥṛas',
 'wherever': 'wḥṛṿr',
 'whether': 'wḥŧer',
@@ -4229,7 +4209,7 @@ const abbreviation = {
 'worker': 'worḳr',
 'working': 'workiŋ',
 'workout': 'workôt',
-'workplace': 'workplac',
+'workplace': 'workplace',
 'workshop': 'workshop',
 'world': 'world',
 'worldwide': 'worldẇḍ',
@@ -4252,17 +4232,55 @@ const abbreviation = {
 'yesterday': 'ỵsṭrɗy',
 'yet': 'ỵt',
 'yield': 'ẏeld',
-'you': 'u',
+'you': 'u', 'You': 'U',
+'your': 'ur', 'yours': 'urs',
+'you\'ve': 'u\'ve',
+'you\'re': 'u\'re',
+'you’re': 'u’re', 
+'you’ve': 'u’ve',
 'young': 'yôŋ',
 'youngster': 'yôŋ§er',
-'your': 'ur', 'yours': 'urs',
 'yourself': 'urṣlf',
 'youth': 'yôŧ',
 
 // Z-\
 'zone': 'zoṇ',
+'zoo': 'zō', 'zoos': 'zōs',
+'zoom': 'zōm', 'zooms': 'zōms',
+'zooming': 'zōṁŋ', 'Zooming': 'Zōṁŋ',
 
 }
+
+
+const form = document.getElementById("form")
+
+let defineMe;
+
+const text = form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  
+  let textareaValue = document.getElementById("myTextarea").value;
+  
+  defineMe = textareaValue
+
+  console.log(defineMe)
+
+
+  const str = formatting(defineMe)
+
+  // cut the str at the 93th character before a whitespace
+  // const result = str.match(/.{1,93}\s/g) ?? [];
+  const result = str.match(/.{1,75}\s/g) ?? [];
+
+  // p_block.innerHTML = b(result).join("<br>");
+  p_block.innerHTML = str
+})
+
+
+// let textareaValue = document.getElementById("myTextarea").value;
+
+// const text = textareaValue
+
 
 const txt_body = document.getElementById('txt_body');
 const p_block = document.getElementById('p_block');
@@ -4303,9 +4321,7 @@ function transformBoustrophedon(txt) {
     }
 
   }
-
   // console.log(words)
-
   const resultado = words.join('&#32;');
 
   return resultado;
@@ -4316,9 +4332,7 @@ function transformBoustrophedon(txt) {
 const str = formatting(text)
 
 // cut the str at the 93th character before a whitespace
-// const result = str.match(/.{1,93}/gs) ?? [];
-const result = str.match(/.{1,93}\s/g) ?? [];
-
+// const result = str.match(/.{1,93}\s/g) ?? [];
 
 
 function formatting(text) {
@@ -4334,9 +4348,10 @@ function formatting(text) {
 
 function b(arr) {
   const newArr = arr;
-  for(let i = 1; i < newArr.length; i += 2) {
-    newArr[i] = '<span class="boustrophedon">' + transformBoustrophedon(newArr[i]) + '</span>';
-  }
+  // to deactivate Boustrophedon, comment t for lōp ↓
+  // for(let i = 1; i < newArr.length; i += 2) {
+  //   newArr[i] = '<span class="boustrophedon">' + transformBoustrophedon(newArr[i]) + '</span>';
+  // }
 
   return newArr;
 }

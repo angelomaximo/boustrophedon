@@ -3373,5 +3373,5 @@ function checkTOŧerArr(txt) {
   return words.sort().join('\n');
 }
 
-
-console.log(checkTOŧerArr(txt))
+// ↓ decomment to work
+// console.log(checkTOŧerArr(txt))

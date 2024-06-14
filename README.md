@@ -1,6 +1,8 @@
 # boustrophedon
 It's boustrophedon without reversing the words.
 
+[ ] Checkbox to activate and deactivate boustrophedon. 
+
 
 > The line should break when the pixel reach its limit. 
 
